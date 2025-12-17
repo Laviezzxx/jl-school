@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>内容管理系统 - 管理员页面</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/tailwind.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
     
     <script>
         tailwind.config = {
@@ -64,7 +64,7 @@
                 <div class="flex justify-between h-16">
                     <div class="flex-shrink-0 flex items-center">
                         <a href="#" class="text-2xl font-bold text-primary">
-                            <i class="fa-solid fa-hammer mr-2"></i>接龙职校CMS
+                            <i class="fa-solid fa-hammer mr-2"></i>大湾青年技能培训班CMS
                         </a>
                     </div>
                     
@@ -323,17 +323,17 @@
             // 新闻默认数据
             if (!localStorage.getItem('newsArticles')) {
                 const defaultNews = [
-                    { id: 'news-1', title: '喜报！我校学员斩获市级电工技能大赛金奖', category: '技能竞赛', date: '2025-10-22', author: '教务处', image: 'https://images.unsplash.com/photo-1581092160562-40aa08e78837', content: '<p>新闻内容...</p>' },
-                    { id: 'news-2', title: '接轨大厂！千万级新能源汽修实训中心落成', category: '学校建设', date: '2025-09-15', author: '校办', image: 'https://images.unsplash.com/photo-1487887235947-a955ef187fcc', content: '<p>新闻内容...</p>' },
-                    { id: 'news-3', title: '秋季大型双选会：300家企业入校抢人', category: '就业喜报', date: '2025-09-08', author: '就业处', image: 'https://images.unsplash.com/photo-1516321318423-f06f85e504b3', content: '<p>新闻内容...</p>' }
+                    { id: 'news-1', title: '喜报！我校学员斩获市级电工技能大赛金奖', category: '技能竞赛', date: '2025-10-22', author: '教务处', image: 'images/skills-competition.jpg', content: '<p>新闻内容...</p>' },
+                    { id: 'news-2', title: '接轨大厂！千万级新能源汽修实训中心落成', category: '学校建设', date: '2025-09-15', author: '校办', image: 'images/new-campus.jpg', content: '<p>新闻内容...</p>' },
+                    { id: 'news-3', title: '秋季大型双选会：300家企业入校抢人', category: '就业喜报', date: '2025-09-08', author: '就业处', image: 'images/job-fair.jpg', content: '<p>新闻内容...</p>' }
                 ];
                 localStorage.setItem('newsArticles', JSON.stringify(defaultNews));
             }
             // 博客默认数据
             if (!localStorage.getItem('blogArticles')) {
                 const defaultBlog = [
-                    { id: 'blog-1', title: '新能源汽车维修技术发展趋势分析', category: '技术分析', date: '2025-10-15', author: '技术研究部', image: 'https://images.unsplash.com/photo-1503376780353-7e6692767b70', content: '<p>博客内容...</p>' },
-                    { id: 'blog-2', title: '工业4.0时代下的电工技能新要求', category: '技术前沿', date: '2025-09-20', author: '电气工程系', image: 'https://images.unsplash.com/photo-1581092160633-4025f6d163f0', content: '<p>博客内容...</p>' }
+                    { id: 'blog-1', title: '新能源汽车维修技术发展趋势分析', category: '技术分析', date: '2025-10-15', author: '技术研究部', image: 'images/electric-car-tech.jpg', content: '<p>博客内容...</p>' },
+                    { id: 'blog-2', title: '工业4.0时代下的电工技能新要求', category: '技术前沿', date: '2025-09-20', author: '电气工程系', image: 'images/industry4-tech.jpg', content: '<p>博客内容...</p>' }
                 ];
                 localStorage.setItem('blogArticles', JSON.stringify(defaultBlog));
             }
@@ -443,7 +443,7 @@
                 category: document.getElementById('article-category').value,
                 author: document.getElementById('article-author').value,
                 date: document.getElementById('article-date').value,
-                image: document.getElementById('article-image').value || 'https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?auto=format&fit=crop&w=800&q=80',
+                    image: document.getElementById('article-image').value || 'images/video-thumbnail.jpg',
                 content: document.getElementById('editor-content').innerHTML
             };
 

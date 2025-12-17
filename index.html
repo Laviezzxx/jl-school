@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>城市技能培训中心 - 技能改变命运</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/tailwind.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
     
     <script>
         tailwind.config = {
@@ -31,7 +31,7 @@
             <div class="flex justify-between h-16">
                 <div class="flex-shrink-0 flex items-center">
                     <a href="#" class="text-2xl font-bold text-primary">
-                        <i class="fa-solid fa-hammer mr-2"></i>接龙职校
+                        <i class="fa-solid fa-hammer mr-2"></i>大湾青年技能培训班
                     </a>
                 </div>
                 
@@ -67,7 +67,7 @@
     <section id="home" class="relative bg-gray-900 h-[600px] flex items-center justify-center mt-16">
         <div class="absolute inset-0 overflow-hidden">
             <img class="w-full h-full object-cover opacity-40" 
-                 src="https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80" 
+                 src="images/background-city.jpg"
                  alt="城市建设背景">
         </div>
 
@@ -135,8 +135,8 @@
                     <div class="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-secondary transition">
                         <i class="fa-solid fa-bolt text-2xl text-secondary group-hover:text-white"></i>
                     </div>
-                    <h3 class="text-xl font-bold text-gray-900 mb-2">高薪电工</h3>
-                    <p class="text-gray-500 text-sm mb-4">高低压电工证、PLC编程、电路布线。持证上岗，高薪紧缺。</p>
+                    <h3 class="text-xl font-bold text-gray-900 mb-2">装配电工</h3>
+                    <p class="text-gray-500 text-sm mb-4">低压电工证、PLC编程、电路布线。持证上岗，高薪紧缺。</p>
                     <span class="text-primary font-medium text-sm">点击查看详情 &rarr;</span>
                 </a>
 
@@ -213,7 +213,7 @@
     <!-- Tab导航 -->
             <div class="flex flex-wrap gap-2 mb-8 border-b border-gray-200">
                 <button data-course="electric" class="course-tab px-4 py-2 font-medium text-sm rounded-t-lg active bg-primary text-white">
-                    <i class="fa-solid fa-bolt mr-2"></i>高薪电工
+                    <i class="fa-solid fa-bolt mr-2"></i>装配电工
                 </button>
                 <button data-course="auto" class="course-tab px-4 py-2 font-medium text-sm rounded-t-lg text-gray-500 hover:text-primary hover:bg-gray-100">
                     <i class="fa-solid fa-car mr-2"></i>王牌汽修
@@ -277,7 +277,7 @@
                                     <span class="w-1 h-6 bg-secondary mr-3 rounded-full"></span> 课程实拍 / 试听
                                 </h2>
                                 <div class="relative w-full aspect-video bg-gray-900 rounded-xl overflow-hidden shadow-lg group cursor-pointer">
-                                    <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80" 
+                                    <img src="images/video-thumbnail.jpg" 
                                          alt="视频封面" class="w-full h-full object-cover opacity-60 group-hover:opacity-40 transition">
                                     <div class="absolute inset-0 flex items-center justify-center">
                                         <div class="w-16 h-16 bg-white/90 rounded-full flex items-center justify-center pl-1 group-hover:scale-110 transition duration-300">
@@ -332,11 +332,11 @@
                                 </h2>
                                 <div class="grid grid-cols-2 gap-4">
                                     <div class="aspect-[4/3] bg-gray-200 rounded-lg overflow-hidden relative">
-                                        <img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" 
+                                        <img src="images/training-equipment.jpg" 
                                              class="w-full h-full object-cover hover:scale-110 transition duration-500" alt="实训设备">
                                     </div>
                                     <div class="aspect-[4/3] bg-gray-200 rounded-lg overflow-hidden relative">
-                                        <img src="https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" 
+                                        <img src="images/student-life.jpg" 
                                              class="w-full h-full object-cover hover:scale-110 transition duration-500" alt="学员风采">
                                     </div>
                                 </div>
@@ -372,14 +372,14 @@
                                         <div class="flex flex-col md:flex-row gap-6">
                                             <div class="flex-shrink-0">
                                                 <div class="w-16 h-16 rounded-full bg-gray-200 overflow-hidden">
-                                                    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&auto=format&fit=crop&w=200&q=80" alt="学员头像" class="w-full h-full object-cover">
+                                                    <img src="images/student-1.jpg" alt="学员头像" class="w-full h-full object-cover">
                                                 </div>
                                             </div>
                                             <div>
                                                 <h3 class="font-bold text-lg text-gray-800">张明 - 2022届毕业生</h3>
                                                 <p class="text-primary font-medium text-sm mb-2">现就职于宝马4S店，月薪12000元</p>
                                                 <p class="text-gray-600 text-sm leading-relaxed">
-                                                    "在接龙职校学习的三个月是我人生中最充实的时光。老师们都非常专业，手把手教学让我这个零基础的人都能快速掌握汽修技能。现在我已经能独立完成发动机维修工作，感谢学校给我这样的机会！"
+                                                    "在大湾青年技能培训班学习的三个月是我人生中最充实的时光。老师们都非常专业，手把手教学让我这个零基础的人都能快速掌握汽修技能。现在我已经能独立完成发动机维修工作，感谢学校给我这样的机会！"
                                                 </p>
                                             </div>
                                         </div>
@@ -389,7 +389,7 @@
                                         <div class="flex flex-col md:flex-row gap-6">
                                             <div class="flex-shrink-0">
                                                 <div class="w-16 h-16 rounded-full bg-gray-200 overflow-hidden">
-                                                    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&auto=format&fit=crop&w=200&q=80" alt="学员头像" class="w-full h-full object-cover">
+                                                    <img src="images/student-2.jpg" alt="学员头像" class="w-full h-full object-cover">
                                                 </div>
                                             </div>
                                             <div>
@@ -434,7 +434,7 @@
                     </div>
                 </div>
 
-                <!-- 高薪电工详情 -->
+                <!-- 装配电工详情 -->
                 <div class="course-content hidden" data-course="electric">
                     <header class="bg-primary text-white py-12 md:py-16 rounded-lg mb-8">
                         <div class="max-w-7xl mx-auto px-4 flex flex-col md:flex-row items-center gap-8">
@@ -444,11 +444,11 @@
                                 </div>
                             </div>
                             <div class="text-center md:text-left">
-                                <h1 class="text-3xl md:text-4xl font-bold mb-2">高薪电工</h1>
-                                <p class="text-lg text-blue-100 mb-4 max-w-2xl">高低压电工证、PLC编程、电路布线。持证上岗，高薪紧缺。</p>
+                                <h1 class="text-3xl md:text-4xl font-bold mb-2">装配电工</h1>
+                                <p class="text-lg text-blue-100 mb-4 max-w-2xl">低压电工证、PLC编程、电路布线。持证上岗，高薪紧缺。</p>
                                 <div class="flex flex-wrap justify-center md:justify-start gap-4 text-sm font-medium">
                                     <span class="bg-blue-800/50 px-3 py-1 rounded"><i class="fa-regular fa-clock mr-1"></i> 4个月</span>
-                                    <span class="bg-blue-800/50 px-3 py-1 rounded"><i class="fa-solid fa-yen-sign mr-1"></i> 月薪 9k+</span>
+                                    <span class="bg-blue-800/50 px-3 py-1 rounded"><i class="fa-solid fa-yen-sign mr-1"></i> 月薪 待定</span>
                                     <span class="bg-orange-500 px-3 py-1 rounded"><i class="fa-solid fa-fire mr-1"></i> 热门推荐</span>
                                 </div>
                             </div>
@@ -483,7 +483,7 @@
                                     <span class="w-1 h-6 bg-secondary mr-3 rounded-full"></span> 课程实拍 / 试听
                                 </h2>
                                 <div class="relative w-full aspect-video bg-gray-900 rounded-xl overflow-hidden shadow-lg group cursor-pointer">
-                                    <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80" 
+                                    <img src="images/video-thumbnail.jpg" 
                                          alt="视频封面" class="w-full h-full object-cover opacity-60 group-hover:opacity-40 transition">
                                     <div class="absolute inset-0 flex items-center justify-center">
                                         <div class="w-16 h-16 bg-white/90 rounded-full flex items-center justify-center pl-1 group-hover:scale-110 transition duration-300">
@@ -507,27 +507,29 @@
                                 <div class="space-y-4">
                                     <div class="bg-white border border-gray-200 rounded-lg p-5 hover:border-primary transition">
                                         <div class="flex justify-between items-start mb-2">
-                                            <h3 class="font-bold text-lg text-gray-800">第一阶段：电工基础（第1-3周）</h3>
+                                            <h3 class="font-bold text-lg text-gray-800">第一阶段：理论基础（10个学时 / 免费）</h3>
                                         </div>
-                                        <p class="text-gray-600 text-sm leading-relaxed">电工基础理论、安全用电、常用工具、电路元件识别</p>
+                                        <p class="text-gray-600 text-sm leading-relaxed">电工识图（5 学时）：聚焦电路基础、安全规范、交直流电路分析、电气元件识别、原理图识读与绘制 <br>
+                                        机械识图（5 学时）：涵盖标准零件图 / 装配图识读、尺寸标注解读、技术要求分析，培养工程空间思维
+                                        </p>
                                     </div>
                                     <div class="bg-white border border-gray-200 rounded-lg p-5 hover:border-primary transition">
                                         <div class="flex justify-between items-start mb-2">
-                                            <h3 class="font-bold text-lg text-gray-800">第二阶段：低压电工（第4-7周）</h3>
+                                            <h3 class="font-bold text-lg text-gray-800">第二阶段：综合实训（20个学时，30元 / 学时）</h3>
                                         </div>
-                                        <p class="text-gray-600 text-sm leading-relaxed">低压电器控制、配电箱安装、照明电路、电机控制</p>
+                                        <p class="text-gray-600 text-sm leading-relaxed">核心技能模块：工具使用、元器件管理、装配 SOP 操作、电气系统调试、故障诊断与排除、设备维护保养
+                                            <br> 安全专项模块：安全操作规程制定、防护设备使用、安全教育培训，强化职业安全意识
+                                            <br> 项目实战模块：完整项目实施、总结与评估，模拟企业真实工作场景，提升问题解决与团队协作能力
+                                        </p>
                                     </div>
                                     <div class="bg-white border border-gray-200 rounded-lg p-5 hover:border-primary transition">
                                         <div class="flex justify-between items-start mb-2">
-                                            <h3 class="font-bold text-lg text-gray-800">第三阶段：高压电工（第8-11周）</h3>
+                                            <h3 class="font-bold text-lg text-gray-800">教学资源：</h3>
                                         </div>
-                                        <p class="text-gray-600 text-sm leading-relaxed">高压设备操作、变电站维护、继电保护、安全规程</p>
-                                    </div>
-                                    <div class="bg-white border border-gray-200 rounded-lg p-5 hover:border-primary transition">
-                                        <div class="flex justify-between items-start mb-2">
-                                            <h3 class="font-bold text-lg text-gray-800">第四阶段：PLC编程（第12-16周）</h3>
-                                        </div>
-                                        <p class="text-gray-600 text-sm leading-relaxed">PLC基础、梯形图编程、自动化控制、工业应用案例</p>
+                                        <p class="text-gray-600 text-sm leading-relaxed">设备配置：万用表、电工用具、继电器、电机控制台、绝缘工具、急救用品、电路仿真软件
+                                            <br> 教材资源：理论教材（《电工学》《工程制图基础》）、实践指导书、安全规程 + 数字资源（B 站视频、云盘资料库）
+                                            
+                                        </p>
                                     </div>
                                 </div>
                             </section>
@@ -538,11 +540,11 @@
                                 </h2>
                                 <div class="grid grid-cols-2 gap-4">
                                     <div class="aspect-[4/3] bg-gray-200 rounded-lg overflow-hidden relative">
-                                        <img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" 
+                                        <img src="images/training-equipment.jpg" 
                                              class="w-full h-full object-cover hover:scale-110 transition duration-500" alt="实训设备">
                                     </div>
                                     <div class="aspect-[4/3] bg-gray-200 rounded-lg overflow-hidden relative">
-                                        <img src="https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" 
+                                        <img src="images/student-life.jpg" 
                                              class="w-full h-full object-cover hover:scale-110 transition duration-500" alt="学员风采">
                                     </div>
                                 </div>
@@ -578,7 +580,7 @@
                                         <div class="flex flex-col md:flex-row gap-6">
                                             <div class="flex-shrink-0">
                                                 <div class="w-16 h-16 rounded-full bg-gray-200 overflow-hidden">
-                                                    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&auto=format&fit=crop&w=200&q=80" alt="学员头像" class="w-full h-full object-cover">
+                                                    <img src="images/student-3.jpg" alt="学员头像" class="w-full h-full object-cover">
                                                 </div>
                                             </div>
                                             <div>
@@ -595,7 +597,7 @@
                                         <div class="flex flex-col md:flex-row gap-6">
                                             <div class="flex-shrink-0">
                                                 <div class="w-16 h-16 rounded-full bg-gray-200 overflow-hidden">
-                                                    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&auto=format&fit=crop&w=200&q=80" alt="学员头像" class="w-full h-full object-cover">
+                                                    <img src="images/student-4.jpg" alt="学员头像" class="w-full h-full object-cover">
                                                 </div>
                                             </div>
                                             <div>
@@ -689,7 +691,7 @@
                                     <span class="w-1 h-6 bg-secondary mr-3 rounded-full"></span> 课程实拍 / 试听
                                 </h2>
                                 <div class="relative w-full aspect-video bg-gray-900 rounded-xl overflow-hidden shadow-lg group cursor-pointer">
-                                    <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80" 
+                                    <img src="images/video-thumbnail.jpg" 
                                          alt="视频封面" class="w-full h-full object-cover opacity-60 group-hover:opacity-40 transition">
                                     <div class="absolute inset-0 flex items-center justify-center">
                                         <div class="w-16 h-16 bg-white/90 rounded-full flex items-center justify-center pl-1 group-hover:scale-110 transition duration-300">
@@ -738,11 +740,11 @@
                                 </h2>
                                 <div class="grid grid-cols-2 gap-4">
                                     <div class="aspect-[4/3] bg-gray-200 rounded-lg overflow-hidden relative">
-                                        <img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" 
+                                        <img src="images/training-equipment.jpg" 
                                              class="w-full h-full object-cover hover:scale-110 transition duration-500" alt="实训设备">
                                     </div>
                                     <div class="aspect-[4/3] bg-gray-200 rounded-lg overflow-hidden relative">
-                                        <img src="https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" 
+                                        <img src="images/student-life.jpg" 
                                              class="w-full h-full object-cover hover:scale-110 transition duration-500" alt="学员风采">
                                     </div>
                                 </div>
@@ -778,14 +780,14 @@
                                         <div class="flex flex-col md:flex-row gap-6">
                                             <div class="flex-shrink-0">
                                                 <div class="w-16 h-16 rounded-full bg-gray-200 overflow-hidden">
-                                                    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&auto=format&fit=crop&w=200&q=80" alt="学员头像" class="w-full h-full object-cover">
+                                                    <img src="images/student-5.jpg" alt="学员头像" class="w-full h-full object-cover">
                                                 </div>
                                             </div>
                                             <div>
                                                 <h3 class="font-bold text-lg text-gray-800">王丽 - 2022届毕业生</h3>
                                                 <p class="text-primary font-medium text-sm mb-2">现为淘宝店铺主播，月收入8000元+</p>
                                                 <p class="text-gray-600 text-sm leading-relaxed">
-                                                    "在接龙职校学习专业电商课程让我找到了新的职业方向。老师从基础的短视频拍摄开始教起，再到直播技巧，非常系统。现在我在一家服装公司做主播，收入比以前翻了好几倍。"
+                                                    "在大湾青年技能培训班学习专业电商课程让我找到了新的职业方向。老师从基础的短视频拍摄开始教起，再到直播技巧，非常系统。现在我在一家服装公司做主播，收入比以前翻了好几倍。"
                                                 </p>
                                             </div>
                                         </div>
@@ -795,7 +797,7 @@
                                         <div class="flex flex-col md:flex-row gap-6">
                                             <div class="flex-shrink-0">
                                                 <div class="w-16 h-16 rounded-full bg-gray-200 overflow-hidden">
-                                                    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&auto=format&fit=crop&w=200&q=80" alt="学员头像" class="w-full h-full object-cover">
+                                                    <img src="images/student-6.jpg" alt="学员头像" class="w-full h-full object-cover">
                                                 </div>
                                             </div>
                                             <div>
@@ -889,7 +891,7 @@
                                     <span class="w-1 h-6 bg-secondary mr-3 rounded-full"></span> 课程实拍 / 试听
                                 </h2>
                                 <div class="relative w-full aspect-video bg-gray-900 rounded-xl overflow-hidden shadow-lg group cursor-pointer">
-                                    <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80" 
+                                    <img src="images/video-thumbnail.jpg" 
                                          alt="视频封面" class="w-full h-full object-cover opacity-60 group-hover:opacity-40 transition">
                                     <div class="absolute inset-0 flex items-center justify-center">
                                         <div class="w-16 h-16 bg-white/90 rounded-full flex items-center justify-center pl-1 group-hover:scale-110 transition duration-300">
@@ -944,11 +946,11 @@
                                 </h2>
                                 <div class="grid grid-cols-2 gap-4">
                                     <div class="aspect-[4/3] bg-gray-200 rounded-lg overflow-hidden relative">
-                                        <img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" 
+                                        <img src="images/training-equipment.jpg" 
                                              class="w-full h-full object-cover hover:scale-110 transition duration-500" alt="实训设备">
                                     </div>
                                     <div class="aspect-[4/3] bg-gray-200 rounded-lg overflow-hidden relative">
-                                        <img src="https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" 
+                                        <img src="images/student-life.jpg" 
                                              class="w-full h-full object-cover hover:scale-110 transition duration-500" alt="学员风采">
                                     </div>
                                 </div>
@@ -984,14 +986,14 @@
                                         <div class="flex flex-col md:flex-row gap-6">
                                             <div class="flex-shrink-0">
                                                 <div class="w-16 h-16 rounded-full bg-gray-200 overflow-hidden">
-                                                    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&auto=format&fit=crop&w=200&q=80" alt="学员头像" class="w-full h-full object-cover">
+                                                    <img src="images/student-7.jpg" alt="学员头像" class="w-full h-full object-cover">
                                                 </div>
                                             </div>
                                             <div>
                                                 <h3 class="font-bold text-lg text-gray-800">赵敏 - 2022届毕业生</h3>
                                                 <p class="text-primary font-medium text-sm mb-2">现就职于某知名企业HR部门，月薪9000元</p>
                                                 <p class="text-gray-600 text-sm leading-relaxed">
-                                                    "在接龙职校学习就业咨询课程让我掌握了求职的系统方法。从简历优化到面试技巧，老师都进行了详细的指导。现在我自己也成为了HR，帮助别人找到理想工作，感觉很有成就感。"
+                                                    "在大湾青年技能培训班学习就业咨询课程让我掌握了求职的系统方法。从简历优化到面试技巧，老师都进行了详细的指导。现在我自己也成为了HR，帮助别人找到理想工作，感觉很有成就感。"
                                                 </p>
                                             </div>
                                         </div>
@@ -1001,7 +1003,7 @@
                                         <div class="flex flex-col md:flex-row gap-6">
                                             <div class="flex-shrink-0">
                                                 <div class="w-16 h-16 rounded-full bg-gray-200 overflow-hidden">
-                                                    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&auto=format&fit=crop&w=200&q=80" alt="学员头像" class="w-full h-full object-cover">
+                                                    <img src="images/student-8.jpg" alt="学员头像" class="w-full h-full object-cover">
                                                 </div>
                                             </div>
                                             <div>
@@ -1054,7 +1056,7 @@
             <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
                 
                 <div class="relative h-64 md:h-96 rounded-lg overflow-hidden shadow-xl">
-                    <img src="https://images.unsplash.com/photo-1581092921461-eab62e97a783?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80" 
+                    <img src="images/practical-training.jpg" 
                          alt="实操教学场景" class="w-full h-full object-cover">
                     <div class="absolute bottom-0 left-0 bg-primary text-white px-6 py-2 text-sm font-bold">
                         100% 真机实操
@@ -1117,7 +1119,7 @@
         <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-3 gap-8">
             
             <div>
-                <h4 class="text-xl font-bold text-white mb-4">接龙职校</h4>
+                <h4 class="text-xl font-bold text-white mb-4">大湾青年技能培训班</h4>
                 <p class="text-gray-400 text-sm leading-relaxed">
                     致力于为城市建设者提供最专业的职业技能培训。让每一个人都能凭手艺赢得尊重，获得高薪。
                 </p>
